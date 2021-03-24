@@ -1,0 +1,45 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr{
+
+    height:5px;border-width:0;color:black;background-color: black;
+}
+h3{
+    margin: 30px;
+
+}
+body{
+    padding: 30px;
+    max-width: 700px;
+    background: #29335c;
+    margin: auto;
+    font-family: verdana, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+figcaption{
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+#haku{
+    background: #69a297;
+    text-align: center;
+    padding: 5px;
+}
+#hakuteksti{
+    font-family: "Arial Black", sans-serif;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.hakunappi{
+    font-family: "Arial Black", sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}

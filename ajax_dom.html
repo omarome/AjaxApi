@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Ajax-tehtävä</title>
+</head>
+<body>
+
+<!--
+    Onkohan jo vanhentunut html-runko?
+    Tee omaan vastaukseen parempi html5 ratkaisu.
+-->
+<div id="haku">
+    <form id="search-form">
+        <h3>Syötä TV-sarjan nimi</h3>
+        <input id="hakuteksti" type="text" name="search-field" >
+
+        <button class="hakunappi" type="submit">Hae</button>
+        <button
+                class="hakunappi"
+                type="reset"
+                value="Reset"
+                onclick="window.location.reload()"
+                name="search-field"
+        >Nollaa</button>
+    </form>
+    <hr>
+    <main id="tulos"></main>
+</div>
+<script src="js/ajax_dom.js"></script>
+
+</body>
+</html>
